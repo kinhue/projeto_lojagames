@@ -28,7 +28,7 @@ public class Categoria {
 	private String pais;
 	
 	@NotBlank(message = "Coloque a marca!")
-	@Size(min=5, max=25, message = "A marca deve ser de 5 a 25 letras!")
+	@Size(min=2, max=25, message = "A marca deve ser de 2 a 25 letras!")
 	 @Column(length = 25)
 	private String marca;
 
