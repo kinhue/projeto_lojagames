@@ -1,7 +1,5 @@
 package com.generation.lojagames.controller;
 
-
-
 import java.util.List;
 
 import org.apache.el.stream.Optional;
